@@ -23,12 +23,12 @@ void main() {
         PORTBbits.RB0^=1;
         __delay_ms(1000);
         
-        RB1=1;
+        RB1=1; 
         __delay_ms(1000);
         RB1=0;
         __delay_ms(1000);
         
-        RB2=!RB1;
+        RB2=!RB1; // negación logica
         __delay_ms(1000);
         RB2=RB1;
         __delay_ms(1000);
