@@ -33,6 +33,6 @@ void main() {
         RB2=RB1;
         __delay_ms(1000);
                     
-    }
-    
+    }   
 }
+// Ya vamos manejando esto de los led"s jeje..... :)
