@@ -28,7 +28,7 @@ void main() {
         RB1=0;
         __delay_ms(1000);
         
-        RB2=!RB1; // negación logica
+        RB2=!RB1; // RB2 es igual a la negación logica de RB1
         __delay_ms(1000);
         RB2=RB1;
         __delay_ms(1000);
