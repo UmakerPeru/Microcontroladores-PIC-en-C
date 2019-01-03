@@ -28,4 +28,4 @@ void main() {
             }
 
 }
-
+//"No se puede pactar con las dificultades, o las vencemos o nos vencen" ;)
