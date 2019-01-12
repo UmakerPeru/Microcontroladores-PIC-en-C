@@ -19,7 +19,7 @@
 void main() {
  
     TRISD=0b00000000;//Pin RD0 como salida digital, aquí se colocará el led
-    PORTD=0b00000000;//El led se inicia apagado(los demas tambien ;) )
+    PORTD=0b00000000;//El led del RD0 se inicia apagado (los demas tambien ;) )
     
     OPTION_REG=0b10000111; //timer0 pic como temporizador, prescaler 256
     TMR0=60; //El led se inicia apagado
