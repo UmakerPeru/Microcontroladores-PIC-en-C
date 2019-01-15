@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include "configurador.h"
 /*
- * Este ejemplo sencillo se basa en un led conectado ala pin RB0 que parpadea cada 1s usando laa interrupcion por 
+ * Este ejemplo sencillo se basa en un led conectado a la pin RB0 que parpadea cada 1s usando laa interrupcion por 
  * desbordamiento del timer 0
  */
 int cuenta = 0;   // Declaro una variable "cuenta"
