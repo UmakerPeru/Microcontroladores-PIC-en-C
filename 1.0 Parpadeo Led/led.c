@@ -10,7 +10,7 @@
 
 # include  < stdio.h >
 # include  < stdlib.h >
-# incluye  " configuracion.h "
+# include  " configuracion.h "
 
 /*
  *  El registro TRISB (de 8bits) determina la funcion de sus pines , 0 - salida / 1 - entrada
