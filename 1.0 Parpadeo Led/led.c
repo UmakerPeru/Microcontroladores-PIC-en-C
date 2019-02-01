@@ -25,7 +25,7 @@
 void  main () {
 
     TRISB=0b00000000; //RB0 a RB7  como salidas 
-    mientras ( 1 )
+    while ( 1 )
     { RB0=1; //enciende el RB0
       __delay_ms(1000); //retardo de 1s
       RB0=0; //apaga el RB0
