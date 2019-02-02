@@ -8,9 +8,9 @@
  * y apagado de un led cada 1s por el pin RB0 del pueto B:
  */
 
-# include  < stdio.h >
-# include  < stdlib.h >
-# include  " configuracion.h "
+#include <stdio.h>
+#include <stdlib.h>
+#include "configuracion.h"
 
 /*
  *  El registro TRISB (de 8bits) determina la funcion de sus pines , 0 - salida / 1 - entrada
